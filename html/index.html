@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSA - Chat</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="container vertical-center">
+
+    <div class="initial_screen">
+        <h2>Chat App</h2>
+        <form id="connect">
+            <input id="username" type="text" autocomplete="off" placeholder="Enter your username" />
+            <button type="submit">Connect</button>
+        </form>
+    </div>
+
+    <div class="chat-wrapper">
+        <ul id="chat"></ul>
+        <form id="message-form">
+            <input id="message" autofocus autocomplete="off" />
+            <button type="submit">send</button>
+        </form>
+    </div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/jquery/jquery.min.js"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>
