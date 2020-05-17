@@ -40,6 +40,6 @@ io.on('connection', socket => {
 
 });
 
-http.listen(80, () => {
-    console.log('listening on port 80');
+http.listen(5000, () => {
+    console.log('listening on port 5000');
 });
