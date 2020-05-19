@@ -12,10 +12,6 @@ app.get('/', (request, response) => {
     response.sendFile(`${__dirname}/html/index.html`);
 });
 
-app.get('/chat', (request, response) => {
-    response.sendFile(`${__dirname}/html/chat.html`);
-});
-
 io.on('connection', socket => {
 
     console.log('a user connected.');
