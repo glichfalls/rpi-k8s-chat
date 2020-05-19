@@ -1,9 +1,8 @@
-﻿# Chat App
+﻿## k8s chat app
 
-Node.js chat app running intended to run on a raspberry pi kubernetes cluster.
+Node.js chat app intended to run on a raspberry pi kubernetes cluster.
 
-
-
+check out the .kube directory for the kubernetes deployment and service configuration. 
 
 ### Final build 
 
