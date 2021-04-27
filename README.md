@@ -4,6 +4,8 @@ Node.js chat app intended to run on a raspberry pi kubernetes cluster.
 
 check out the .kube directory for the kubernetes deployment and service configuration. 
 
+docker image: https://hub.docker.com/r/glichfalls/chat
+
 ### Final build 
 
 ![Example](example.jpg)
